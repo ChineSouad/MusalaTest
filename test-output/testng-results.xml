@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28740" started-at="2022-01-11T14:12:23 CET" finished-at="2022-01-11T14:12:52 CET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28740" started-at="2022-01-11T14:12:23 CET" finished-at="2022-01-11T14:12:52 CET">
+      <class name="test.TC4_CareersPageTest">
+        <test-method status="PASS" signature="suiteSetup()[pri:0, instance:test.TC4_CareersPageTest@cd23d9]" name="suiteSetup" is-config="true" duration-ms="11525" started-at="2022-01-11T14:12:12 CET" finished-at="2022-01-11T14:12:23 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method status="PASS" signature="loadBaseUrl(java.lang.reflect.Method)[pri:0, instance:test.TC4_CareersPageTest@cd23d9]" name="loadBaseUrl" is-config="true" duration-ms="6591" started-at="2022-01-11T14:12:23 CET" finished-at="2022-01-11T14:12:30 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.TC4_CareersPageTest.CareersPageListPositions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBaseUrl -->
+        <test-method status="PASS" signature="CareersPageListPositions()[pri:0, instance:test.TC4_CareersPageTest@cd23d9]" name="CareersPageListPositions" duration-ms="21233" started-at="2022-01-11T14:12:30 CET" finished-at="2022-01-11T14:12:51 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CareersPageListPositions -->
+        <test-method status="PASS" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:test.TC4_CareersPageTest@cd23d9]" name="screenshotAndDeleteCookies" is-config="true" duration-ms="862" started-at="2022-01-11T14:12:51 CET" finished-at="2022-01-11T14:12:52 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CareersPageListPositions status=SUCCESS method=TC4_CareersPageTest.CareersPageListPositions()[pri:0, instance:test.TC4_CareersPageTest@cd23d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndDeleteCookies -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:test.TC4_CareersPageTest@cd23d9]" name="suiteTearDown" is-config="true" duration-ms="771" started-at="2022-01-11T14:12:53 CET" finished-at="2022-01-11T14:12:53 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- test.TC4_CareersPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

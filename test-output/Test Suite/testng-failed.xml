@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]" parallel="classes">
+  <test thread-count="5" name="Parallel Tests2(failed)" parallel="classes">
+    <classes>
+      <class name="test.TC2_CompanyPageTest">
+        <methods>
+          <include name="screenshotAndDeleteCookies"/>
+          <include name="companyPage"/>
+          <include name="suiteSetup"/>
+          <include name="loadBaseUrl"/>
+          <include name="suiteTearDown"/>
+        </methods>
+      </class> <!-- test.TC2_CompanyPageTest -->
+    </classes>
+  </test> <!-- Parallel Tests2(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

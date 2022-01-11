@@ -1,0 +1,6 @@
+test\TC1_ContactsUSTest.class
+base\TestBase.class
+test\TC2_CompanyPageTest.class
+test\TC4_CareersPageTest.class
+utils\ExcelUtil.class
+test\TC3_CareersPageTest.class
