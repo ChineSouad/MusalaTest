@@ -54,18 +54,4 @@ public class TC1_ContactsUSTest extends TestBase
 		return arrayObjects;
 	}
 
-	//	
-	//	@DataProvider(name = "tempTestData")
-	//	public Object[][] tempTestData() throws Exception {
-	//
-	//		String[][] testData = ExcelUtil.getExcelDataIn2DArray("testData//loginTestData.xlsx", "loginSheet");
-	//		return testData;
-	//	}
-	//	
-	//	//Test to demo data provider functionality
-	//	@Test(dataProvider = "tempTestData")
-	//	public void tempTest(String userId, String pwd) {
-	//		System.out.println(userId + " - " + pwd);
-	//	}
-
-}
+	}
