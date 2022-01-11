@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Test Suite" parallel="classes" >
+
+
+<test name = "Parallel Tests1">
+      <classes>
+         <class name = "test.TC1_ContactsUSTest" />
+      </classes>
+   </test>
+   <test name = "Parallel Tests2">
+      <classes>
+         <class name = "test.TC2_CompanyPageTest" />
+      </classes>
+   </test>
+   <test name = "Parallel Tests3">
+      <classes>
+         <class name = "test.TC3_CareersPageTest" />
+      </classes>
+   </test>
+   <!--test name = "Parallel Tests4">
+      <classes>
+         <class name = "test.TC4_CareersPageTest" />
+      </classes>
+   </test-->
+</suite>
+
